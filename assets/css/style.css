@@ -52,3 +52,15 @@ header{
     color: black;
 }
 /* --------------------------------------- */
+
+
+/* Etiquetas de Identificadores */
+#icono-svg{
+    background: #0dcaf0;
+    color: #ffffff;
+}
+#categorias{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* --------------------------------------- */
