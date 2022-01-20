@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Etiquetas de Elementos HTML */
+html{
+    scroll-behavior: auto !important;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    color: #ffffff;
+}
+header{
+    position: fixed;
+    z-index: 10000;
+}
+/* --------------------------------------- */
+
+
+
+/* Etiquetas de clases */
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    height: 100px;
+    width: 100%; 
+    background: rgba(255, 255, 255, 0);
+    padding: 18px;
+    -webkit-transition: all ease-out .5s;
+    -moz-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+} 
+.navbar ul li {
+    padding: 1px 6px;
+    color: white;
+    font-size: 16px;
+    transition: .5s;
+}
+.navbar a {
+    color: white;
+}
+.navbar.white {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px gray;
+}
+.navbar.white a {
+    color: black;
+}
+/* --------------------------------------- */
