@@ -17,6 +17,9 @@ header{
     position: fixed;
     z-index: 10000;
 }
+footer{
+    background: #0dcaf0;
+}
 
 
 
@@ -81,4 +84,8 @@ header{
 #formulario-box{
     margin-top: 2rem;
     margin-bottom: 5rem;
+}
+#icon-rrss{
+    color: #ffffff;
+    margin: 6px;
 }
