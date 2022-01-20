@@ -4,7 +4,6 @@
 }
 
 
-/* Etiquetas de Elementos HTML */
 html{
     scroll-behavior: auto !important;
 }
@@ -18,11 +17,10 @@ header{
     position: fixed;
     z-index: 10000;
 }
-/* --------------------------------------- */
 
 
 
-/* Etiquetas de clases */
+
 .navbar {
     position: fixed;
     z-index: 1000;
@@ -51,10 +49,13 @@ header{
 .navbar.white a {
     color: black;
 }
-/* --------------------------------------- */
+.btn-primary{
+    background: #0dcaf0;
+}
 
 
-/* Etiquetas de Identificadores */
+
+
 #icono-svg{
     background: #0dcaf0;
     color: #ffffff;
@@ -73,4 +74,11 @@ header{
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
-/* --------------------------------------- */
+#formulario{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#formulario-box{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
